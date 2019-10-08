@@ -12,7 +12,7 @@
     This could be extended by having nested blocks, sorting them recursively
     and flattening the end structure into a list of lines. Revision 2 maybe ^.^.
 """
-
+ 
 def sort_blocks():
     # First, we load the current README into memory
     with open('README.md', 'r') as read_me_file:
